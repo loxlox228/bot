@@ -7,37 +7,19 @@ bot.command('reference', ctx => {
         source: 'res/pic.png'
     })
 })
-var fuck = ["богдан", "бодя", "Богдан", "БОДЯ", "Бодя"];
+var bodya = ["богдан", "бодя", "Богдан", "БОДЯ", "Бодя"];
 var ansti = ["настя", "ансти", "Настя", "ansti", "Ansti", "Ансти", "Анусти", "Anusti", "anusti"];
 var sasha = ["sasha", "саня", "Саша", "Александра", "саса", "Саса", "Sasha"];
 
 bot.hears(ansti, (ctx) => {
-    ctx.reply("🤪😘🥳😘👌🤗🤗🤗😘😝🥳😘😹дібілка😛🤪😘😝🥳😘😹😝🥳😘👌🤗🤗🤗😘🥰🥀🤬🥺🤯");
-    bot.telegram.sendPhoto(ctx.chat.id, {
-        source: 'res/jopa.jpg'
-    });
-    bot.telegram.sendVideo(ctx.chat.id, {
-        source: 'res/petro.mp4'
-    })
+    ctx.reply("🤪😘🥳😘👌🤗🤗🤗😘😝🥳😘😹😛🤪😘😝🥳😘😹😝🥳😘👌🤗🤗🤗😘🥰🥀🤬🥺🤯");
 }  )
-bot.hears(fuck, (ctx) => {
-    ctx.reply("🥳😘😹😝🥳😘👌🤗🤗🤗лох😛🤪😘🥳😘😹😝🥳😘👌🤗🤗🤗😝");
-    bot.telegram.sendPhoto(ctx.chat.id, {
-        source: 'res/prank.png'
-    });
-    bot.telegram.sendVideo(ctx.chat.id, {
-        source: 'res/petro.mp4'
-    })
+bot.hears(bodya, (ctx) => {
+    ctx.reply("🥳😘😹😝🥳😘👌🤗🤗🤗😛🤪😘🥳😘😹😝🥳😘👌🤗🤗🤗😝");
 }  )
 
 bot.hears(sasha, (ctx) => {
-    ctx.reply("👌🤗🤗🤗дибилка ссса.сааа🥳😘😹😝🥳😘👌🤗🤗🤗😘");
-    bot.telegram.sendPhoto(ctx.chat.id, {
-        source: 'res/jopa.jpg'
-    });
-    bot.telegram.sendVideo(ctx.chat.id, {
-        source: 'res/petro.mp4'
-    })
+    ctx.reply("👌🤗🤗🤗🥳😘😹😝🥳😘👌🤗🤗🤗😘");
 }  )
 
 
